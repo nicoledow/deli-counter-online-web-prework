@@ -7,8 +7,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, i|
       if i < katz_deli.size - 1
       phrase += "#{i + 1}. #{person} "
-    else
+      else
       phrase += "#{i + 1}. #{person}"
+    end
     end
     puts phrase
   end
