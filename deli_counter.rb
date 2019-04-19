@@ -9,6 +9,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, i|
       phrase += "#{i + 1}. #{person} "
     end
-    return phrase
+    puts phrase
   end
 end
